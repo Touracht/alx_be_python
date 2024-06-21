@@ -1,6 +1,6 @@
 #
 I = "interest"
-P = "principle"
+P = "principal"
 R = "rate"
 T = "time"
 P = 1000
