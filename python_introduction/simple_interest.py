@@ -6,6 +6,7 @@ P = principal
 R = rate
 T = time
 I = P * R * T
-I = "The simple interest is: 150.0"
-print(I)
+I = "interest"
+interest = "The simple interest is: 150.0"
+print(interest)
 #
