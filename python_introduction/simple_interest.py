@@ -4,8 +4,8 @@ P = "principal"
 R = "rate"
 T = "time"
 P = 1000
-I = 0.05
+R = 0.05
 T = 3
-I = P * I * T
+I = P * R * T
 print(I)
 #
