@@ -1,7 +1,10 @@
 #
-principal = P = 1000
-rate = R = 0.05
-time = T = 3
-interest = I = P * R * T
+principal = 1000
+rate = 0.05
+time = 3
+P = principal
+R = rate
+T = time
+I = P * R * T
 print(I)
 #
