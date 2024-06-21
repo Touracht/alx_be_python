@@ -1,6 +1,5 @@
 #
-input("How old are you?")
-int(input(30 + 27))
-in_2050 = int(input(20+27))
-print(in_2050)
+"How old are you?"
+future_age = "In 2050, you will be [57] years old."
+print(future_age)
 #
