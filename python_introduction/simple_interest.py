@@ -1,8 +1,8 @@
 #
-I = "interest"
-P = "principal"
-R = "rate"
-T = "time"
+interest = "I"
+principal = "P"
+rate = "R"
+time = "T"
 P = 1000
 R = 0.05
 T = 3
