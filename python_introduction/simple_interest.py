@@ -5,7 +5,7 @@ time = 3
 P = principal
 R = rate
 T = time
-I = "interest"
 I = P * R * T
+I = "The simple interest is: 150.0"
 print(I)
 #
