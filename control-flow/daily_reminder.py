@@ -16,7 +16,7 @@ match priority:
     case _:
         print("Not applicable.")
         
-match task:        
+match priority:        
     case n if priority == "high":
         if time_bound == "no":
             print("Note:", (task), "is a high priority task. Consider completing it when you have free time.")
