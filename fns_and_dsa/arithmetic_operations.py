@@ -14,8 +14,8 @@ def perform_operation(num1, num2, operation):
         return product
     if operation == "divide":
         quotient = num1 / num2
-        if num1 / 0 == 0:
-            print("Cannot divide by 0!")
+    elif num1 / 0 == 0:
+        print("Cannot divide by 0!")
         
         return quotient     
 #
