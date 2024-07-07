@@ -12,24 +12,26 @@ def main():
         choice = input("Enter your choice: ")
 
         if choice == '1':
+            adding_item = input("Enter the name of the item: ")
+            shopping_list.append(adding_item)
+            print(shopping_list)
             # Prompt for and add an item
-            add_item = input("Add the item: ")
-            return add_item
             pass
         elif choice == '2':
-            remove_item = input("Enter item name: ")
-            return remove_item
+            removing_item = input("Enter the item you want to remove: ")
+            shopping_list.remove(removing_item)
+            print(shopping_list)
             # Prompt for and remove an item
             pass
         elif choice == '3':
+            print(shopping_list)
             # Display the shopping list
-            
             pass
         elif choice == '4':
             print("Goodbye!")
             break
         else:
             print("Invalid choice. Please try again.")
-            return shopping_list
+
 if __name__ == "__main__":
     main()
