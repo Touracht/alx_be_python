@@ -22,8 +22,8 @@ def main():
             print(f"{temperature}°F is {converted_temp}°C")
         else:
             print("Invalid unit entered. Enter celsius of fahrenheit.")
-    except ValueError as error:
-        print(f"invalid temperature. Please enter a numeric value. {error}")
+    except ValueError:
+        print(f"Invalid temperature. Please enter a numeric value.")
 if __name__ == "__main__":
     main()
 
