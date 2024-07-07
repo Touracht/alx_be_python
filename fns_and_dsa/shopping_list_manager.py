@@ -11,23 +11,23 @@ def main():
         display_menu()
         choice = input("Enter your choice: ")
 
-        if choice == '1':
+        if choice == "1" :
             adding_item = input("Enter item to add: ")
             shopping_list.append(adding_item)
             print(shopping_list)
             # Prompt for and add an item
             pass
-        elif choice == '2':
+        elif choice == "2" :
             removing_item = input("Enter the item you want to remove: ")
             shopping_list.remove(removing_item)
             print(shopping_list)
             # Prompt for and remove an item
             pass
-        elif choice == '3':
+        elif choice == "3" :
             print(shopping_list)
             # Display the shopping list
             pass
-        elif choice == '4':
+        elif choice == "4" :
             print("Goodbye!")
             break
         else:
