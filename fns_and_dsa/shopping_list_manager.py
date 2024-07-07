@@ -25,7 +25,9 @@ def main():
             # Prompt for and remove an item
             pass
         elif choice == '3' :
-            print(shopping_list)
+            if shopping_list:
+                for item in shopping_list:
+                    print(item)
             # Display the shopping list
             pass
         elif choice == '4' :
