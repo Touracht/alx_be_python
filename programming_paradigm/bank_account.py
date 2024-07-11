@@ -1,5 +1,5 @@
 class BankAccount:
-    def __init__(self, account_balance, initial_balance = 0.0):
+    def __init__(self, account_balance, initial_balance = f"{0:.2f}"):
         self.account_balance = account_balance
         self.current_balance = initial_balance
     
@@ -15,4 +15,5 @@ class BankAccount:
             return False
         
     def display_balance(self):
-        print(f"Your current balance is {self.current_balance}")
+        print(f"Current Balance: ${self.current_balance}")
+        return
