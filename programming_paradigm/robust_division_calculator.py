@@ -12,4 +12,5 @@ def safe_divide(numerator, denominator):
             print(f"{numerator} / {denominator} is {division:.1f}")
     except ValueError:
         print("Error: Please enter numeric values only.")
+    return
                   
