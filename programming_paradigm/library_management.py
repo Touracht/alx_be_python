@@ -20,9 +20,13 @@ class Library:
     def add_book(self, Book):
         """Add the book to the list"""  
         self._books.append(Book)
+
+    # def check_out_book(self, title):
+    #     for book in self._books:
+    #         if title == book.title
     
     def list_available_books(self):
-        for book in self._book:
+        for book in self._books:
             print(f"{book.title} by {book.author}")
             
             
