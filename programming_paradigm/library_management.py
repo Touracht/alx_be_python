@@ -14,21 +14,12 @@ class Book:
 
 class Library:
     def __init__(self):
-        self._book = []
+        self._books= []
         """Stores the books"""
 
     def add_book(self, Book):
         """Add the book to the list"""  
-        self._book.append(Book)
-    
-    # def check_out_book(self, title):
-    #    for book in self._book:
-    #         if title == book
-           
-    def return_book(self, title):
-        for book in self._book:
-            if title == book:
-                return book
+        self._books.append(Book)
     
     def list_available_books(self):
         for book in self._book:
