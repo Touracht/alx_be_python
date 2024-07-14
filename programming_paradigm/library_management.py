@@ -31,7 +31,7 @@ class Library:
         for book in self._books:
             if title == book.title:
                 self._books.append(book)
-                self.return_book 
+                self.return_book()
 
     def list_available_books(self):
         for book in self._books:
