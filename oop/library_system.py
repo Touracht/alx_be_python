@@ -32,7 +32,7 @@ class Library:
     def list_books(self):
         def __str__(self):
             for book in self.books:
-                return f"{book.title} by {book.author}"
+                return f"{Book.book}"
 
     
   
