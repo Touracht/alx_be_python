@@ -27,8 +27,7 @@ class Library:
         self.books = []
 
     def add_book(self, book):
-        av_books = self.books.append(book)
-        return av_books
+        self.books.append(book)
     
     def list_books(self):
         for book in self.books:
