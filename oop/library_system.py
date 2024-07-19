@@ -31,7 +31,7 @@ class Library:
         return av_books
     
     def list_books(self):
-        for book in Library(self.books):
+        for book in self.books:
             print(book)
 
     
