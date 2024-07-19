@@ -3,12 +3,17 @@ class Shape:
         raise NotImplementedError(print("Derived classes need to override this method."))
     
 class Rectangle(Shape):
+    def __init__(self, length, width):
+        self.length = length
+        self.width = width
     
-    def area(self, length, width):
-        return length * width
+    def area(self):
+        return self.length * self.width
     
 class Circle(Shape):
-    def area(self, radius):
+    def __init__(self, radius):
+        self.radius = radius
+    def area(self):
         import math
-        return math.pi * (radius * radius)
+        return math.pi * (self.radius ** 2)
     
