@@ -30,8 +30,9 @@ class Library:
         self.books.append(book)
     
     def list_books(self):
-        for book in self.books:
-            return book
+        def __str__(self):
+            for book in self.books:
+                return book
 
     
   
